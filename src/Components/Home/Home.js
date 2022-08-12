@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light nav">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand">
             <img
               src="https://cdn1.vectorstock.com/i/thumb-large/95/70/logotype-of-agriculture-logo-with-a-field-vector-20999570.jpg"
               alt=""
@@ -32,25 +32,21 @@ export default function Home() {
             <ul className="navbar-nav">
               <Link to="/">
                 <li className="nav-item">
-                  <a
-                    className="nav-link active navitems"
-                    aria-current="page"
-                    href="#"
-                  >
+                  <a className="nav-link active navitems" aria-current="page">
                     <p class="text-info">HOME</p>
                   </a>
                 </li>
               </Link>
               <Link to="/MerchantData">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link">
                     <p class="text-info">MERCHANT DATA</p>
                   </a>
                 </li>
               </Link>
               <Link to="/CustomerData">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link">
                     <p class="text-info">CUSTOMER DATA</p>
                   </a>
                 </li>
@@ -70,7 +66,7 @@ export default function Home() {
             </button> */}
 
           {/* <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">
+            <a class="dropdown-item" >
               SIGNUP/SIGNIN
             </a>
           </div> */}
@@ -189,19 +185,13 @@ export default function Home() {
                 {/* Links */}
                 <h6 className="text-uppercase fw-bold mb-4">Products</h6>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Farming Products
-                  </a>
+                  <a className="text-reset">Farming Products</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Groccerries
-                  </a>
+                  <a className="text-reset">Groccerries</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Vegitables
-                  </a>
+                  <a className="text-reset">Vegitables</a>
                 </p>
               </div>
 
